@@ -1,1 +1,2 @@
-# project_structure
+Extracter: The extractor code is to convert features and labels to its binary and dict values, respectively. Extraction code also does cross validation step based on the window size we give. It also run algorithm for linear, poly, sigmoid and rbf kernels for the window size given.
+Predictor: Best kernel and the best window size is choosen (in my case its linear kernel and window size 19) for best prediction. In the code, default window size is given as 19. If query sequence is given as input, the predicted secondary structure is displayed in output.
